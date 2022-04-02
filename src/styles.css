@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* SELECTORS */
+body {
+  font-family: Arial, Helvet;
+  background: #eee;
+}
+
+header {
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 3px solid #000;
+  border-radius: 30px;
+  color: black;
+  background: none;
+  outline: none;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+}
+
+button:hover {
+  -webkit-transform: scale(1.175);
+          transform: scale(1.175);
+}
+
+span {
+  font-weight: 600;
+}
+
+/* CLASSES */
+.container {
+  text-align: center;
+}
+
+.container .text {
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.container .background-generated {
+  display: none;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
